@@ -1,0 +1,115 @@
+body {
+  height: 800px;
+  background-color: white;
+  color: black;
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin-left:75px; 
+  margin-right:75px; 
+  padding:0; 
+  font-family: Oswald;
+}
+
+p { font-size: 25px
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: transparent;
+}
+
+.active {
+  background-color: transparent;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+@font-face { font-family: Aquire; src: url('Aquire.otf');}
+
+@font-face { font-family: Goldleaf; src: url('Goldleaf.ttf')}
+
+@font-face { font-family: Oswald ; src: url('Oswald.ttf');}
+
+#bigText {
+  font-family: Aquire;
+  text-align: center;
+  font-size: 45px
+}
+
+#homeText {
+  text-align: center;
+}
+
+#source {
+  font-size: 30px;
+}
+
+div.a {
+  text-indent: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%
+}
+
+.image {
+  flex-basis: 70%
+}
+
+.text {
+  font-size: 40px;
+  padding-left: 20px;
+  font-family: Oswald;
+}
